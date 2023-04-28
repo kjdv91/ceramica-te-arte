@@ -1,9 +1,19 @@
 
 nav{
-  background-color: #DCCDDA;;
+  background-color: #DCCDDA;
+  min-width: 200px;
 }
 
 img{
   width: 10rem;
   height: 70px;
+}
+
+li{
+  font-size: 1.1rem;
+}
+
+.nav-link{
+  font-weight: bold;
+  color: #3D1F1F !important;
 }
