@@ -9,7 +9,7 @@ import { ProductsService } from './services/products.service';
 })
 export class AppComponent implements OnInit {
   title = 'ceramica-te-arte';
-  datos: any;
+  datos: any =[];
   id:number;
   imageProduct:string;
   titleProduct:string;
@@ -21,9 +21,18 @@ export class AppComponent implements OnInit {
 
   }
   ngOnInit() {
+    this.dataLoad();
+
+
+
+
+  }
+
+  dataLoad(){
     this.dataService.getProducts().subscribe({
       next:(dataProducts)=>{
         console.log(dataProducts)
+        this.datos = dataProducts;
         this.id = dataProducts.id;
         this.imageProduct = dataProducts.image;
         this.titleProduct = dataProducts.productTitle;
@@ -35,9 +44,6 @@ export class AppComponent implements OnInit {
       }
     })
   }
-
-
-
   }
 
 

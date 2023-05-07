@@ -1,119 +1,119 @@
 [
     {
         "id":1,
-        "image": "/assets/products/angel.jpg",
+        "image": "/assets/products/gatitas.jpg",
         "productTitle":"Angelito",
         "productDescription":"Juego de angelito de cerámica"
 
       },
       {
         "id":2,
-        "image": "1",
-        "productTitle":"s",
-        "productDescription":"s"
+        "image": "/assets/products/manzana.jpg",
+        "productTitle":"Manzana",
+        "productDescription":""
 
       },
       {
         "id":3,
-        "image": "1",
+        "image": "/assets/products/juegos-elefenates-celestes.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":4,
-        "image": "1",
+        "image": "/assets/products/caballo-dorado.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":5,
-        "image": "1",
+        "image": "/assets/products/elefantes-dorados.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":6,
-        "image": "1",
+        "image": "/assets/products/florero-dorado.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":7,
-        "image": "1",
+        "image": "/assets/products/floreros-broche.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":8,
-        "image": "1",
+        "image": "/assets/products/floreros-caramelizados.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":9,
-        "image": "1",
+        "image": "/assets/products/floreros-rojos.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":10,
-        "image": "1",
+        "image": "/assets/products/frutero.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":11,
-        "image": "1",
+        "image": "/assets/products/gallina-huevera.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":12,
-        "image": "1",
+        "image": "/assets/products/manzana.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":13,
-        "image": "1",
+        "image": "/assets/products/gatitos.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":14,
-        "image": "1",
+        "image": "/assets/products/juego-buda.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":15,
-        "image": "1",
+        "image": "/assets/products/juego-cebra.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":16,
-        "image": "1",
+        "image": "/assets/products/juego-de-ponys.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
       },
       {
         "id":17,
-        "image": "1",
+        "image": "/assets/products/parejas-doradas.jpg",
         "productTitle":"s",
         "productDescription":"s"
 
