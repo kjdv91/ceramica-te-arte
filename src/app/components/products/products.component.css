@@ -1,0 +1,57 @@
+.banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #25d366;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.whatsapp-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.whatsapp-icon i {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.banner a:hover {
+  background-color: #25d366;
+  transform: scale(2.2);
+}
+
+.btn-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn{
+  width: 80px;
+  border: 1px solid #25d366;
+  background: #DCCDDA;
+  color: black;
+  font-weight: 800;
+}
+
+@media (max-width: 400px) {
+  /* Estilos para pantallas con ancho igual o inferior a 400 px */
+  .card-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}

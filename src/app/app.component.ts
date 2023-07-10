@@ -7,43 +7,17 @@ import { ProductsService } from './services/products.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent  {
   title = 'ceramica-te-arte';
-  datos: any =[];
-  id:number;
-  imageProduct:string;
-  titleProduct:string;
-  descriptionProduct:string;
+
 
   constructor(
     private dataService: ProductsService
   ){
 
   }
-  ngOnInit() {
-    this.dataLoad();
 
 
-
-
-  }
-
-  dataLoad(){
-    this.dataService.getProducts().subscribe({
-      next:(dataProducts)=>{
-        console.log(dataProducts)
-        this.datos = dataProducts;
-        this.id = dataProducts.id;
-        this.imageProduct = dataProducts.image;
-        this.titleProduct = dataProducts.productTitle;
-        this.descriptionProduct = dataProducts.productDescription
-
-      },
-      error: (err)=>{
-        console.log(err)
-      }
-    })
-  }
   }
 
 

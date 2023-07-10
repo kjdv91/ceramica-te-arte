@@ -1,149 +1,103 @@
 [
     {
         "id":1,
-        "image": "/assets/products/gatitas.jpg",
-        "productTitle":"Angelito",
+        "image": "/assets/products/ElefantesJuego.png",
+        "productTitle":"Juego de Elefantes",
         "productDescription":"Juego de angelito de cerámica"
 
       },
       {
         "id":2,
-        "image": "/assets/products/manzana.jpg",
-        "productTitle":"Manzana",
+        "image": "/assets/products/JuegoAves.png",
+        "productTitle":"Aves de pared",
         "productDescription":""
 
       },
       {
         "id":3,
-        "image": "/assets/products/juegos-elefenates-celestes.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/JuegoDelfines.png",
+        "productTitle":"Juego Delfines",
         "productDescription":"s"
 
       },
       {
         "id":4,
-        "image": "/assets/products/caballo-dorado.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/JuegoBudas.png",
+        "productTitle":"Budas",
         "productDescription":"s"
 
       },
       {
         "id":5,
-        "image": "/assets/products/elefantes-dorados.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/JuegoGirasoles.png",
+        "productTitle":"Juego de Girasoles",
         "productDescription":"s"
 
       },
       {
         "id":6,
-        "image": "/assets/products/florero-dorado.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/Morena.png",
+        "productTitle":"Morena Florero",
         "productDescription":"s"
 
       },
       {
         "id":7,
-        "image": "/assets/products/floreros-broche.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/JuegosElefantes.jpg",
+        "productTitle":"Juego de elefantes",
         "productDescription":"s"
 
       },
       {
         "id":8,
-        "image": "/assets/products/floreros-caramelizados.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/GallinaHuevera.png",
+        "productTitle":"Gallina Huevera",
         "productDescription":"s"
 
       },
       {
         "id":9,
-        "image": "/assets/products/floreros-rojos.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/MorenaFlorero.png",
+        "productTitle":"Morena Florero 2",
         "productDescription":"s"
 
       },
       {
         "id":10,
-        "image": "/assets/products/frutero.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/Pony&Perro.png",
+        "productTitle":"Pony & Dog",
         "productDescription":"s"
 
       },
       {
         "id":11,
-        "image": "/assets/products/gallina-huevera.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/UnElefante.png",
+        "productTitle":"Elefante",
         "productDescription":"s"
 
       },
       {
         "id":12,
-        "image": "/assets/products/manzana.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/UnCaballoDorado.png",
+        "productTitle":"Caballo para sala",
         "productDescription":"s"
 
       },
       {
         "id":13,
-        "image": "/assets/products/gatitos.jpg",
-        "productTitle":"s",
+        "image": "/assets/products/UnToro.png",
+        "productTitle":"Toro centro de mesa",
         "productDescription":"s"
 
       },
       {
         "id":14,
-        "image": "/assets/products/juego-buda.jpg",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },
-      {
-        "id":15,
-        "image": "/assets/products/juego-cebra.jpg",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },
-      {
-        "id":16,
-        "image": "/assets/products/juego-de-ponys.jpg",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },
-      {
-        "id":17,
-        "image": "/assets/products/parejas-doradas.jpg",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },
-      {
-        "id":18,
-        "image": "1",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },
-      {
-        "id":19,
-        "image": "1",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },{
-        "id":20,
-        "image": "1",
-        "productTitle":"s",
-        "productDescription":"s"
-
-      },{
-        "id":21,
-        "image": "1",
-        "productTitle":"s",
+        "image": "/assets/products/Pony.png",
+        "productTitle":"Pony",
         "productDescription":"s"
 
       }
+
 
 
 
