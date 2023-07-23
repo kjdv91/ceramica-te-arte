@@ -11,6 +11,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { ProductsComponent } from './components/products/products.component';
 import { ProductsService } from './services/products.service';
 import { HttpClientModule } from "@angular/common/http";
+import { HomeComponent } from './components/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HttpClientModule } from "@angular/common/http";
     AboutUsComponent,
     HistoryComponent,
     ContactUsComponent,
-    ProductsComponent
+    ProductsComponent,
+    HomeComponent
+
   ],
   imports: [
     BrowserModule,

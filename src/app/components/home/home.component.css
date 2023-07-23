@@ -1,0 +1,10 @@
+/* Estilo personalizado para el carrusel */
+#carouselExampleControls {
+  max-height: 400px; /* Puedes ajustar el valor según el tamaño deseado */
+}
+
+/* Estilo personalizado para las imágenes dentro del carrusel */
+#carouselExampleControls img {
+  height: auto; /* Las imágenes mantendrán su relación de aspecto original */
+  max-height: 100%; /* Las imágenes no superarán la altura máxima del carrusel */
+}

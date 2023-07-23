@@ -5,10 +5,10 @@ import { AppComponent } from './app.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { ProductsComponent } from './components/products/products.component';
 import { HistoryComponent } from './components/history/history.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
-  { path: 'Home', component: AboutUsComponent },
+  { path: '', component: HomeComponent },
   { path: 'QuienesSomos', component: AboutUsComponent },
   { path: 'SobreNosotros', component: HistoryComponent },
   { path: 'Productos', component: ProductsComponent },
