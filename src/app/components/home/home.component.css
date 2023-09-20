@@ -1,6 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 /* Estilo personalizado para el carrusel */
 #carouselExampleControls {
   max-height: 400px; /* Puedes ajustar el valor según el tamaño deseado */
+  margin-bottom: 3.5rem;
 }
 
 /* Estilo personalizado para las imágenes dentro del carrusel */
@@ -8,3 +15,123 @@
   height: auto; /* Las imágenes mantendrán su relación de aspecto original */
   max-height: 100%; /* Las imágenes no superarán la altura máxima del carrusel */
 }
+/*Seccion productos*/
+.products-home {
+  background-color: #f0f0f0; /* Color de fondo para la nueva sección */
+  padding: 1rem; /* Espacio alrededor del contenido de la nueva sección */
+}
+.container-title{
+  text-align: center;
+  width: 100%;
+
+}
+
+.addon-title{
+  text-align: center;
+  text-transform: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.1rem;
+
+}
+
+.grid-wrapper{
+  /* width: 50%;
+  margin: 0 auto; */
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px; /* Espacio entre los elementos */
+  justify-content: center;
+}
+
+.products-grid{
+  margin: 0 auto;
+}
+.img-product {
+  box-sizing: border-box;
+  flex: 0 0 calc(25% - 30px); /* Dos columnas en pantallas grandes */
+  max-width: calc(25% - 30px); /* Dos columnas en pantallas grandes */
+  padding: 15px; /* Espacio entre los elementos */
+  margin-bottom: 30px; /* Espacio entre filas */
+  text-align: center; /* Alinear contenido al centro si es necesario */
+  min-width: 200px; /* Ancho mínimo */
+
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .img-product {
+    flex: 0 0 calc(50% - 30px); /* Dos columnas en pantallas pequeñas */
+    max-width: calc(50% - 30px); /* Dos columnas en pantallas pequeñas */
+  }
+}
+
+
+.product-content {
+  position: relative; /* Para posicionar elementos hijos de forma absoluta */
+
+
+
+
+}
+
+.block-inner {
+  position: relative;
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+}
+
+.block-inner img {
+  max-width: 100%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Asegura que la imagen no tenga espacios en blanco alrededor */
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para la descripción */
+  color: #fff; /* Color del texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+
+
+
+/* Estilos para los párrafos dentro de la sección */
+section p {
+  font-size: 18px; /* Tamaño de fuente */
+  line-height: 1.6; /* Espaciado entre líneas */
+  margin-bottom: 20px; /* Espaciado inferior */
+  color: #333; /* Color del texto */
+}
+
+/* Estilos para el primer párrafo */
+section p:first-child {
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el enlace de explorar el catálogo */
+.explore-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600; /* Color de fondo del enlace */
+  color: #fff; /* Color del texto del enlace */
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.explore-link:hover {
+  background-color: #cc5500; /* Color de fondo al pasar el ratón */
+}
+
