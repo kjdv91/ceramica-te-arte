@@ -6,10 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  isNavbarCollapsed = true;
 
 
-  prueba() {
-    console.log('click');
+
+  onNavbarToggled() {
+    this.isNavbarCollapsed = !this.isNavbarCollapsed;
   }
+
+
 
 }

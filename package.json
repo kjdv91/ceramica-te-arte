@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "serve-mobil": "ng serve --host=0.0.0.0"
   },
   "private": true,
   "dependencies": {
@@ -19,9 +20,13 @@
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
     "@fortawesome/fontawesome-free": "^6.4.0",
+    "@ng-bootstrap/ng-bootstrap": "^15.1.1",
     "bootstrap": "^5.3.0",
     "bootstrap-icons": "^1.10.5",
     "jquery": "^3.7.0",
+    "ng-image-slider": "^7.0.1",
+    "ngx-image-magnifier": "^0.1.0",
+    "ngx-image-zoom": "^2.1.0",
     "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

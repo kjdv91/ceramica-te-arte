@@ -44,94 +44,27 @@
   align-items: center;
 }
 
-.products-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px; /* Espacio entre los elementos */
-  justify-content: center;
-}
-
-.products-grid{
-  margin: 0 auto;
-}
-.img-product {
-  box-sizing: border-box;
-  flex: 0 0 calc(25% - 30px); /* Dos columnas en pantallas grandes */
-  max-width: calc(25% - 30px); /* Dos columnas en pantallas grandes */
-  padding: 15px; /* Espacio entre los elementos */
-  margin-bottom: 30px; /* Espacio entre filas */
-  text-align: center; /* Alinear contenido al centro si es necesario */
-  min-width: 200px; /* Ancho mínimo */
-
-}
-
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
-  .img-product {
-    flex: 0 0 calc(50% - 30px); /* Dos columnas en pantallas pequeñas */
-    max-width: calc(50% - 30px); /* Dos columnas en pantallas pequeñas */
-  }
-}
-
-
-.product-content {
-  position: relative; /* Para posicionar elementos hijos de forma absoluta */
-
-
-
-
-}
-
-.block-inner {
-  position: relative;
-  width: 100%; /* Ajusta el ancho según tus necesidades */
-}
-
-.block-inner img {
-  max-width: 100%; /* Establece el ancho máximo de la imagen al 100% del contenedor */
+.products-home img {
+  max-width: 100%; /* Hace que la imagen no se desborde del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
-  display: block; /* Asegura que la imagen no tenga espacios en blanco alrededor */
+  display: block; /* Elimina espacios en blanco alrededor de la imagen */
+  margin: 0 auto; /* Centra la imagen dentro del contenedor */
 }
 
-.caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para la descripción */
-  color: #fff; /* Color del texto */
-  padding: 10px; /* Espacio alrededor del texto */
-  text-align: center; /* Alineación del texto al centro */
+.col-sm-3,
+.col-sm {
+  margin-bottom: 15px; /* Agrega espacio entre las imágenes */
+}
+
+.container {
+  max-width: 1200px; /* Limita el ancho del contenedor para que se vea bien en pantallas grandes */
+  margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.container-title {
+  text-align: center; /* Centra el título */
+  margin-bottom: 30px; /* Agrega espacio entre el título y las imágenes */
 }
 
 
-
-
-/* Estilos para los párrafos dentro de la sección */
-section p {
-  font-size: 18px; /* Tamaño de fuente */
-  line-height: 1.6; /* Espaciado entre líneas */
-  margin-bottom: 20px; /* Espaciado inferior */
-  color: #333; /* Color del texto */
-}
-
-/* Estilos para el primer párrafo */
-section p:first-child {
-  font-weight: bold; /* Texto en negrita */
-}
-
-/* Estilos para el enlace de explorar el catálogo */
-.explore-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ff6600; /* Color de fondo del enlace */
-  color: #fff; /* Color del texto del enlace */
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 5px; /* Bordes redondeados */
-}
-
-.explore-link:hover {
-  background-color: #cc5500; /* Color de fondo al pasar el ratón */
-}
 

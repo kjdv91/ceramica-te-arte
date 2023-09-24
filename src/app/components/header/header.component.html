@@ -1,32 +1,34 @@
-<nav class="navbar navbar-expand-lg navbar-light ">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg ">
+  <div class="container">
     <a class="navbar-brand" href="#">
       <img class="logo" src="../../../assets/logoTArte.png" alt="logo-ceramica" srcset="">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Botón de menú desplegable -->
+    <button class="navbar-toggler" type="button" (click)="onNavbarToggled()" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="ms-auto">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" routerLink="/">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/QuienesSomos">Quienes Somos</a>
-          </li>
-          <li class="nav-item" >
-            <a class="nav-link" routerLink="SobreNosotros" >Sobre Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Productos">Nuestros Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="Contactanos" >Contáctanos</a>
-          </li>
-        </ul>
-      </div>
 
+    <!-- Menú desplegable -->
+    <div class="collapse navbar-collapse" [ngClass]="isNavbarCollapsed ? 'show' : ''">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/QuienesSomos">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="SobreNosotros" >Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Productos">Nuestros Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="Contactanos" >Contáctanos</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
+
