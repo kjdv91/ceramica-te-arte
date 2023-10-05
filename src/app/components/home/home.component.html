@@ -30,33 +30,29 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/ElefantesJuego.png" alt="elefantes">
-      </div>
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/GallinaHuevera.png" alt="gallina-huevera">
-      </div>
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/JuegoBudas.png" alt="budas">
-      </div>
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/Pony&Perro.png" alt="pony-dog">
+      <div class="col-sm-3 col-6" *ngFor="let imagen of imagenes; let i = index">
+        <div class="contenedor">
+          <img
+            [src]="imagen.hover ? imagen.secundaria : imagen.principal"
+            alt="Imagen {{ i }}"
+            (mouseover)="cambiarEstadoImg1(i)"
+            (mouseout)="cambiarEstadoImg1(i)"
+          />
+        </div>
       </div>
     </div>
 
 
     <div class="row">
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/Vaquita.jpg" alt="vaquita">
-      </div>
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/JuegosElefantes.png" alt="elefantes">
-      </div>
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/JuegoGirasoles.png" alt="girasoles">
-      </div>
-      <div class="col-sm-3 col-6">
-        <img src="../../../assets/productsHome/DosMorenas.png" alt="morenas">
+      <div class="col-sm-3 col-6" *ngFor="let imagen of imagenesTwo; let i = index">
+        <div class="contenedor">
+          <img
+            [src]="imagen.hover ? imagen.secundaria : imagen.principal"
+            alt="Imagen {{ i }}"
+            (mouseover)="cambiarEstadoImg2(i)"
+            (mouseout)="cambiarEstadoImg2(i)"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -65,7 +61,7 @@
 </section>
 
 <!-- Section descripcion -->
-<section class="container text-center">
+<section class="container  container-text">
   <div class="row">
     <div class="col-md-8 offset-md-2">
       <p>
@@ -83,6 +79,7 @@
     </div>
   </div>
 </section>
+
 
 
 

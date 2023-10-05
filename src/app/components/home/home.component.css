@@ -19,7 +19,10 @@
 .products-home {
   background-color: #f0f0f0; /* Color de fondo para la nueva sección */
   padding: 1rem; /* Espacio alrededor del contenido de la nueva sección */
+  height: auto;
 }
+
+
 .container-title{
   text-align: center;
   width: 100%;
@@ -67,4 +70,29 @@
 }
 
 
+/* Estilos para la sección de bienvenida */
+
+.container-text {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* Fondo gris claro */
+}
+
+.container-text p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #333; /* Color de texto oscuro */
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.container-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .container-text p {
+    font-size: 1rem;
+  }
+}
 
