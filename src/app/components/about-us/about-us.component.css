@@ -1,0 +1,44 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container-tex {
+  background-color: lightblue; /* Color de fondo de la sección */
+
+  top: 0; /* Desde la parte superior de la ventana */
+  left: 0; /* Desde la parte izquierda de la ventana */
+  right: 0; /* Hasta la parte derecha de la ventana */
+  bottom: 0; /* Hasta la parte inferior de la ventana */
+  padding: 20px; /* Espacio interior */
+  overflow: auto; /* Añadir desplazamiento si el contenido es demasiado grande */
+}
+
+/* Estilos para el contenido dentro de la sección */
+.container-tex .row {
+  margin: 0 auto; /* Centrar el contenido horizontalmente */
+  max-width: 800px; /* Máximo ancho del contenido */
+}
+
+.img-quienes-somos-contenedor{
+  width: 100%;
+}
+
+
+.quienes-somos-text{
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 6rem;
+  color: black;
+
+
+}
+
+.color1{
+  background-color: antiquewhite;
+}
+
+.color2{
+  background-color: #DCCDDA;
+}
