@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos por defecto (para dispositivos móviles principalmente) */
+html {
+    font-size: 14px; /* Ajusta esto según tus necesidades */
+}
+
+/* Pequeños dispositivos (tabletas en modo retrato, 768px y más) */
+@media (min-width: 768px) {
+    html {
+        font-size: 15px; /* Los textos son un poco más grandes */
+    }
+    /* Otros estilos específicos para dispositivos pequeños */
+}
+
+/* Dispositivos medianos (tabletas en modo paisaje, 992px y más) */
+@media (min-width: 992px) {
+    html {
+        font-size: 16px; /* Aumenta la legibilidad en pantallas más grandes */
+    }
+    /* Otros estilos específicos para dispositivos medianos */
+}
+
+/* Grandes dispositivos (laptops y desktops pequeños, 1200px y más) */
+@media (min-width: 1200px) {
+    html {
+        font-size: 18px; /* Adecuado para lectura en pantallas grandes */
+    }
+    /* Otros estilos específicos para dispositivos grandes */
+}
+
+/* Dispositivos extra grandes (desktops grandes, 1400px y más) */
+@media (min-width: 1400px) {
+    html {
+        font-size: 20px; /* Mejora la legibilidad en monitores grandes */
+    }
+    /* Otros estilos específicos para dispositivos extra grandes */
+}
