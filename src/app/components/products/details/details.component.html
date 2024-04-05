@@ -1,0 +1,17 @@
+<div *ngIf="product; else noProductSelected" class="product-details-container">
+    <div class="card" style="width: 18rem;">
+      <img [src]="product.image" class="card-img-top" alt="Imagen del producto" style="height: 20rem; width: 100%;">
+      <div class="card-body">
+        <h5 class="card-title">{{product.productTitle}}</h5>
+        <p class="card-text">{{product.productDescription}}</p>
+        <!-- Otros detalles del producto como precio, cantidad, etc. -->
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noProductSelected>
+    <div class="alert alert-warning" role="alert">
+      Producto no seleccionado. Por favor, seleccione un producto desde la página de productos.
+    </div>
+  </ng-template>
+  

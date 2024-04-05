@@ -71,6 +71,7 @@
     font-size: 1.3rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
     white-space: nowrap; /* Evita que el texto se envuelva */
   }
   
