@@ -1,5 +1,7 @@
 
-
+:host {
+  display: inline-block;
+ }
 
 @media (max-width: 400px) {
   /* Estilos para pantallas con ancho igual o inferior a 400 px */
@@ -9,10 +11,12 @@
     justify-content: center;
   }
 }
-
+.container{
+  margin-top: 5.5rem;
+}
 .btn-container{
     width: 100%;
-   
+
     /* margin: 0; */
     display: flex;
     flex-direction: column;

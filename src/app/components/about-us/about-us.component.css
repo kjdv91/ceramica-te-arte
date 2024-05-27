@@ -3,6 +3,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
+:host {
+  display: inline-block;
+ }
 
 .container-tex {
   background-color: lightblue; /* Color de fondo de la sección */
@@ -23,6 +26,7 @@
 
 .img-quienes-somos-contenedor{
   width: 100%;
+  margin-top: 5rem;
 }
 
 

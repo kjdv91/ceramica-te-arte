@@ -8,9 +8,11 @@ import { HttpClientModule } from "@angular/common/http";
 
 import { ComponentsModule } from './components/components.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
+   
 
 
   ],
@@ -19,6 +21,7 @@ import { ComponentsModule } from './components/components.module';
     AppRoutingModule,
     HttpClientModule,
     ComponentsModule,
+ 
 
 
 

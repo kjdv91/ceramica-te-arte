@@ -1,11 +1,10 @@
 :host {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
+   display: inline-block; 
+  }
 nav{
   background-color: #DCCDDA;
   min-width: 200px;
+  
 }
 
 img{

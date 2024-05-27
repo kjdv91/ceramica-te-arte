@@ -1,3 +1,6 @@
+:host {
+  display: inline-block;
+ }
 .historytitle{
   width: 100%;
   height: 5rem;
@@ -22,6 +25,35 @@ h3{
   transform: translateY(-50%); /* Centra verticalmente el h3 */
 }
 
+.container-history{
+  margin-top: 5rem;
+  width: 100%;
+  height: 85vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row div {
+  flex: 1; /* Flex basis to distribute available space equally */
+  display: flex; /* Enable flexbox for centering content */
+
+  justify-content: center; /* Align content horizontally in the center */
+}
+
+.img-container-history img {
+  max-width: 100%; /* Prevent image from overflowing the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.bar{
+  height: 2rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: rosybrown;
+}
 /* Media query para pantallas con ancho menor de 600px */
 @media (max-width: 600px) {
   .historytitle h3 {

@@ -9,6 +9,10 @@ import { ProductsService } from 'src/app/services/products.service';
 export class DetailsComponent {
 
   product: any;
+  myThumb = "https://wittlock.github.io/ngx-image-zoom/assets/thumb.jpg";
+  fullResImage = "https://wittlock.github.io/ngx-image-zoom/assets/fullres.jpg"
+
+
   constructor (private dataService: ProductsService){
 
   }

@@ -10,6 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { DetailsComponent } from './products/details/details.component';
 import { BuyProductComponent } from './products/buy-product/buy-product.component';
+import { RouterModule } from '@angular/router';
+
+
 
 
 
@@ -30,7 +33,9 @@ import { BuyProductComponent } from './products/buy-product/buy-product.componen
   ],
   imports: [
     CommonModule,
-
+    RouterModule,
+    NgxImageZoomModule,
+ 
   ],
   exports : [
     HeaderComponent,
