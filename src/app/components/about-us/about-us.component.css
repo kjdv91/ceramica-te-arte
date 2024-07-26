@@ -3,9 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
-:host {
-  display: inline-block;
- }
+
 
 .container-tex {
   background-color: lightblue; /* Color de fondo de la sección */
@@ -26,14 +24,15 @@
 
 .img-quienes-somos-contenedor{
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 3rem;
+  height: auto;
 }
 
 
 .quienes-somos-text{
-  font-size: 1.7rem;
-  font-weight: 500;
-  padding: 6rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1.6rem;
   color: black;
 
 

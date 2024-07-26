@@ -12,7 +12,7 @@ import { ComponentsModule } from './components/components.module';
 @NgModule({
   declarations: [
     AppComponent,
-   
+
 
 
   ],
@@ -21,7 +21,8 @@ import { ComponentsModule } from './components/components.module';
     AppRoutingModule,
     HttpClientModule,
     ComponentsModule,
- 
+
+
 
 
 

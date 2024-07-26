@@ -1,7 +1,7 @@
 :host {
   display: block;
   width: 100%;
- 
+
 }
 footer {
   background-color: #333;
@@ -9,10 +9,30 @@ footer {
   padding: 20px 0;
   font-size: 14px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-  
+}
+.pay-medios {
+  display: flex;
+  margin-top: 0.3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
+.pay-medios img {
+  width: 3.0%;
+  height: auto;
+}
+
+/* Para pantallas pequeñas (ajusta el breakpoint según tu proyecto) */
+@media (max-width: 768px) {
+  .pay-medios {
+    flex-direction: row;
+  }
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -29,6 +49,7 @@ footer {
   color: #fff;
   background-color: #555;
   transition: all 0.3s ease;
+  margin-top: 0.5rem;
 }
 
 .social-icons a:hover {
@@ -52,10 +73,6 @@ footer {
 }
 .fa-instagram{
   color:  #c32aa3;
-}
-
-footer p {
-  margin-top: 20px;
 }
 
 

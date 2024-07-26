@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from 'src/app/services/products.service';
 import { Router } from '@angular/router';
+import { FormsModule } from '@angular/forms'; // Import FormsModule
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
+
 })
 export class ProductsComponent implements OnInit {
   title = 'ceramica-te-arte';
@@ -14,6 +16,12 @@ export class ProductsComponent implements OnInit {
   imageProduct:string;
   titleProduct:string;
   descriptionProduct:string;
+  select:boolean = false;
+
+  categories : string[] = ['Cocina', 'Sala', 'Decoracion', 'Navidad', 'Varios'];
+  selectedValue: string = '';
+
+
 
   constructor(
     private dataService: ProductsService,
@@ -22,7 +30,10 @@ export class ProductsComponent implements OnInit {
 
   }
   ngOnInit() {
+
     this.dataLoad();
+
+
 
 
 
@@ -33,7 +44,7 @@ export class ProductsComponent implements OnInit {
     this.dataService.getProducts().subscribe({
       next:(dataProducts)=>{
         console.log(dataProducts)
-        this.datos = dataProducts; // los datos los asigno a un objeto 
+        this.datos = dataProducts; // los datos los asigno a un objeto
         this.id = dataProducts.id;
         this.imageProduct = dataProducts.image;
         this.titleProduct = dataProducts.productTitle;
@@ -46,6 +57,11 @@ export class ProductsComponent implements OnInit {
     })
   }
 
+  onCategoryChange(event) {
+    this.selectedValue = event.target.value;
+    // Handle "All Categories" selection if needed
+  }
+
   navigateToProductDetail(product: any): void {
     this.dataService.changeProduct(product)
     this.router.navigate(['/Productos/Detalle', product.id]);
@@ -55,6 +71,10 @@ export class ProductsComponent implements OnInit {
 
   navigateToProductBuy(productId: number) {
     this.router.navigate(['/Productos/Comprar', productId]);
+  }
+
+  showSelect(){
+    this.select = !this.select;
   }
 
 }

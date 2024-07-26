@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { DetailsComponent } from './products/details/details.component';
 import { BuyProductComponent } from './products/buy-product/buy-product.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms'; // Import FormsModule
 
 
 
@@ -30,12 +31,14 @@ import { RouterModule } from '@angular/router';
     BuyProductComponent,
 
 
+
   ],
   imports: [
     CommonModule,
     RouterModule,
     NgxImageZoomModule,
- 
+    FormsModule,
+
   ],
   exports : [
     HeaderComponent,
